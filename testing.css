@@ -32,7 +32,7 @@ body {
 }
 
 #navbar ul li a {
-    color: #ecf0f1;
+    color: #65f821;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
@@ -40,7 +40,7 @@ body {
 }
 
 #navbar ul li a:hover {
-    color: #1abc9c;
+    color: #2538e4;
 }
 
 /* Sections */
@@ -139,7 +139,7 @@ p {
 }
 
 .project-card h3 {
-    color: #1abc9c;
+    color: #1a32bc;
 }
 
 .project-card p {
