@@ -1,16 +1,17 @@
-// Smooth scrolling for navbar links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+// JavaScript for responsive navbar toggle
 
-// Form submission handling
-document.getElementById('contact-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    alert('Thank you for reaching out! I will get back to you soon.');
-    this.reset();
+document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.getElementById('navbar');
+    const navToggle = document.createElement('button');
+    navToggle.setAttribute('aria-label', 'Toggle navigation menu');
+    navToggle.classList.add('nav-toggle');
+    navToggle.innerHTML = '&#9776;'; // Hamburger icon
+
+    // Insert the toggle button before the ul in navbar
+    const navUl = navbar.querySelector('ul');
+    navbar.insertBefore(navToggle, navUl);
+
+    navToggle.addEventListener('click', function () {
+        navUl.classList.toggle('show');
+    });
 });
