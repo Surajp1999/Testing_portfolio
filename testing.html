@@ -1,235 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Tester Portfolio</title>
-    <link rel="stylesheet" href="testing.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Software Tester Portfolio</title>
+<link rel="stylesheet" href="testing.css" />
+<style>
+/* Additional navbar styles for improvement */
+#navbar {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #333;
+z-index: 1000;
+display: flex;
+align-items: center;
+padding: 0 20px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+#navbar .brand {
+color: #fff;
+font-size: 1.5rem;
+font-weight: bold;
+margin-right: auto;
+text-decoration: none;
+padding: 15px 0;
+}
+#navbar ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+#navbar ul li {
+margin-left: 20px;
+}
+#navbar ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: 600;
+padding: 15px 10px;
+display: block;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+#navbar ul li a:hover,
+#navbar ul li a:focus {
+background-color: #555;
+color: #ffd700;
+border-radius: 4px;
+outline: none;
+}
+/* To offset fixed navbar height */
+body {
+padding-top: 60px;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f9f9f9;
+color: #333;
+}
+</style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!-- Navbar -->
+<nav id="navbar" aria-label="Primary navigation">
+<a href="#home" class="brand">Suraj Panigrahy</a>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="https://usersnap.com/blog/wp-content/uploads/2021/03/7-Common-Types-of-Software-Testing@1x.png">
-            <div class="home-overlay"> </div>
-        <h1>Welcome to My Software Tester Portfolio</h1>
-        <p>Hi i am a suraj panigrahy passionate software tester with expertise in manual and automation testing.</p>
-        <!-- About Me Section -->
+<!-- Home Section -->
+<section id="home">
+<div class="home-overlay"></div>
+<h1>Welcome to My Software Tester Portfolio</h1>
+<p>Hi, I am Suraj Panigrahy, a passionate software tester with expertise in manual and automation testing.</p>
+
+<!-- About Me Section -->
 <section id="about-me">
-    <h2>About Me</h2>
-    <p>
-        Hi, I am <strong>Suraj Panigrahy</strong>, a passionate and detail-oriented <strong>Software Tester</strong> with expertise in both <strong>manual and automation testing</strong>. I specialize in ensuring the delivery of high-quality software products by identifying and resolving defects, improving software performance, and ensuring a seamless user experience. My goal is to bridge the gap between development and end-users by delivering bug-free, reliable, and user-friendly applications.
-    </p>
-    <p>
-        I have hands-on experience in creating <strong>test plans</strong>, designing <strong>test scenarios</strong>, writing <strong>test cases</strong>, and tracking bugs using tools like <strong>Jira</strong> and <strong>TestRail</strong>. I am proficient in automation testing using tools such as <strong>Selenium</strong>, <strong>Appium</strong>, <strong>Postman</strong>, and <strong>JMeter</strong>, and I have a strong foundation in programming languages like <strong>Java</strong> and databases like <strong>SQL</strong>.
-    </p>
-    <p>
-        In addition to technical skills, I bring strong <strong>problem-solving abilities</strong>, excellent <strong>team collaboration skills</strong>, and a proactive approach to managing testing processes. Whether it's functional testing, regression testing, or performance testing, I am committed to delivering results that exceed expectations.
-    </p>
+<h2>About Me</h2>
+<p>
+Hi, I am <strong>Suraj Panigrahy</strong>, a passionate and detail-oriented <strong>Software Tester</strong> with expertise in both <strong>manual and automation testing</strong>. I specialize in ensuring the delivery of high-quality software products by identifying and resolving defects, improving software performance, and ensuring a seamless user experience. My goal is to bridge the gap between development and end-users by delivering bug-free, reliable, and user-friendly applications.
+</p>
+<p>
+I have hands-on experience in creating <strong>test plans</strong>, designing <strong>test scenarios</strong>, writing <strong>test cases</strong>, and tracking bugs using tools like <strong>Jira</strong> and <strong>TestRail</strong>. I am proficient in automation testing using tools such as <strong>Selenium</strong>, <strong>Appium</strong>, <strong>Postman</strong>, and <strong>JMeter</strong>, and I have a strong foundation in programming languages like <strong>Java</strong> and databases like <strong>SQL</strong>.
+</p>
+<p>
+In addition to technical skills, I bring strong <strong>problem-solving abilities</strong>, excellent <strong>team collaboration skills</strong>, and a proactive approach to managing testing processes. Whether it's functional testing, regression testing, or performance testing, I am committed to delivering results that exceed expectations.
+</p>
 </section>
 
 <!-- Key Skills Section -->
 <section id="key-skills">
-    <h2>Key Skills</h2>
-    <ul>
-        <li><strong>Manual Testing</strong>: Test planning, test scenario design, test case development, bug tracking, and defect reporting.</li>
-        <li><strong>Automation Testing</strong>: Proficient in Selenium, Appium, Postman, JMeter, and TestNG.</li>
-        <li><strong>Tools</strong>: Jira, TestRail, SQL, Excel, and Windows.</li>
-        <li><strong>Programming</strong>: Java, JavaScript (basic understanding for automation scripts).</li>
-        <li><strong>Soft Skills</strong>: Problem-solving, team management, communication, and attention to detail.</li>
-    </ul>
+<h2>Key Skills</h2>
+<ul>
+<li><strong>Manual Testing</strong>: Test planning, test scenario design, test case development, bug tracking, and defect reporting.</li>
+<li><strong>Automation Testing</strong>: Proficient in Selenium, Appium, Postman, JMeter, and TestNG.</li>
+<li><strong>Tools</strong>: Jira, TestRail, SQL, Excel, and Windows.</li>
+<li><strong>Programming</strong>: Java, JavaScript (basic understanding for automation scripts).</li>
+<li><strong>Soft Skills</strong>: Problem-solving, team management, communication, and attention to detail.</li>
+</ul>
 </section>
 
 <!-- What I Bring to the Table Section -->
 <section id="what-i-bring">
-    <h2>What I Bring to the Table</h2>
-    <ul>
-        <li><strong>Quality Assurance</strong>: Ensuring software meets the highest standards of functionality, usability, and performance.</li>
-        <li><strong>Efficiency</strong>: Streamlining testing processes to save time and resources while maintaining quality.</li>
-        <li><strong>Collaboration</strong>: Working closely with developers, product managers, and stakeholders to deliver exceptional results.</li>
-        <li><strong>Continuous Learning</strong>: Staying updated with the latest testing tools, methodologies, and industry trends.</li>
-    </ul>
+<h2>What I Bring to the Table</h2>
+<ul>
+<li><strong>Quality Assurance</strong>: Ensuring software meets the highest standards of functionality, usability, and performance.</li>
+<li><strong>Efficiency</strong>: Streamlining testing processes to save time and resources while maintaining quality.</li>
+<li><strong>Collaboration</strong>: Working closely with developers, product managers, and stakeholders to deliver exceptional results.</li>
+<li><strong>Continuous Learning</strong>: Staying updated with the latest testing tools, methodologies, and industry trends.</li>
+</ul>
 </section>
 
 <!-- Why Choose Me Section -->
 <section id="why-choose-me">
-    <h2>Why Choose Me?</h2>
-    <p>
-        As a software tester, I don’t just look for bugs—I strive to understand the end-user’s perspective and ensure the software delivers a seamless experience. My meticulous approach to testing, combined with my technical expertise and collaborative mindset, makes me a valuable asset to any development team. I am passionate about delivering quality software that drives user satisfaction and business success.
-    </p>
+<h2>Why Choose Me?</h2>
+<p>
+As a software tester, I don’t just look for bugs—I strive to understand the end-user’s perspective and ensure the software delivers a seamless experience. My meticulous approach to testing, combined with my technical expertise and collaborative mindset, makes me a valuable asset to any development team. I am passionate about delivering quality software that drives user satisfaction and business success.
+</p>
 </section>
 
 <!-- Professional Philosophy Section -->
 <section id="professional-philosophy">
-    <h2>Professional Philosophy</h2>
-    <blockquote>
-        "Quality is not an act, it is a habit. My mission is to make quality a cornerstone of every software product I test, ensuring it meets both user expectations and business goals."
-    </blockquote>
+<h2>Professional Philosophy</h2>
+<blockquote>
+"Quality is not an act, it is a habit. My mission is to make quality a cornerstone of every software product I test, ensuring it meets both user expectations and business goals."
+</blockquote>
 </section>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Manual Testing</h3>
-                <ul>
-                    <li>Test Plan Creation</li>
-                    <li>Test Scenario Design</li>
-                    <li>Test Case Development</li>
-                    <li>Bug Tracking</li>
-                    <li>Defect Reporting</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>Automation Testing</h3>
-                <ul>
-                    <li>Jira</li>
-                    <li>JMeter</li>
-                    <li>Java</li>
-                    <li>SQL</li>
-                    <li>Appium</li>
-                    <li>Postman</li>
-                    <li>TestNG</li>
-                    <li>TestRail</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>Additional Skills</h3>
-                <ul>
-                    <li>Excel</li>
-                    <li>Windows</li>
-                    <li>Problem Solving</li>
-                    <li>Team Management</li>
-                </ul>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <!-- Projects Section -->
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project-container">
-        <!-- Project 1: My Unique Shop -->
-        <div class="project-card">
-            <h3>Project 1: My Unique Shop</h3>
-            <p>
-                <strong>Description:</strong> Performed manual testing for an e-commerce website called "My Unique Shop." Focused on ensuring a seamless user experience by identifying and reporting bugs in the shopping cart, payment gateway, and product listing pages.
-            </p>
-            <p>
-                <strong>Tools Used:</strong>TestRail, Excel.
-            </p>
-            <p>
-                <strong>Key Achievements:</strong> Reduced critical bugs and improved overall user satisfaction.
-            </p>
-        </div>
-
-        <!-- Project 2: Fiabble Placement -->
-        <div class="project-card">
-            <h3>Project 2: Fiabble Placement</h3>
-            <p>
-                <strong>Description:</strong> Conducted manual testing for a job portal website called "Fiabble Placement." Tested user registration, job search functionality, and employer dashboard to ensure smooth functionality.
-            </p>
-            <p>
-                <strong>Tools Used:</strong> TestRail, excel
-            </p>
-            <p>
-                <strong>Key Achievements:</strong> Identified and resolved 50+ bugs, improving the platform's reliability.
-            </p>
-        </div>
-
-        <!-- Project 3: Open Kart -->
-        <div class="project-card">
-            <h3>Project 3: Open Kart</h3>
-            <p>
-                <strong>Description:</strong> Performed manual testing for an online shopping platform called "Open Kart." Focused on testing the product search, checkout process, and user reviews functionality.
-            </p>
-            <p>
-                <strong>Tools Used:</strong>TestRail, excel
-            </p>
-            <p>
-                <strong>Key Achievements:</strong> Improved the checkout process by reducing errors by 40%.
-            </p>
-        </div>
-    </div>
 </section>
+
+<!-- Skills Section -->
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills-container">
+<div class="skill-category">
+<h3>Manual Testing</h3>
+<ul>
+<li>Test Plan Creation</li>
+<li>Test Scenario Design</li>
+<li>Test Case Development</li>
+<li>Bug Tracking</li>
+<li>Defect Reporting</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Automation Testing</h3>
+<ul>
+<li>Jira</li>
+<li>JMeter</li>
+<li>Java</li>
+<li>SQL</li>
+<li>Appium</li>
+<li>Postman</li>
+<li>TestNG</li>
+<li>TestRail</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Additional Skills</h3>
+<ul>
+<li>Excel</li>
+<li>Windows</li>
+<li>Problem Solving</li>
+<li>Team Management</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- Projects Section -->
 <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-container">
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-container">
-                <!-- Project 1: E-conmmerce website -->
-                <div class="project-card">
-                    <h3>Project 1:E-conmmerce website </h3>
-                    <p>
-                        <strong>Description:</strong> •	Built a robust automation framework utilizing the Page Object Model to test key e-commerce functionalities, including login, search, add-to-cart, and checkout.
-                        •	Automated regression test cases, integrated reports, and ensured code quality with version control and continuous integration setup.
-                        •	Tools: Selenium WebDriver, Java, Jira, TestNG, Maven, GitHub, Jenkins (CI), Extent Reports.
-                        
-                    </p>
-                    <p>
-                        <strong>Tools Used:</strong>TestRail, java, testng, jira, jenkins, 
-                    </p>
-                    <p>
-                        <strong>Key Achievements:</strong> Reduced critical bugs and improved overall user satisfaction.
-                    </p>
-                </div>
-    <!-- Contact Section -->
-    <!-- Contact Section -->
+<h2>Projects</h2>
+<div class="project-container">
+<div class="project-card">
+<h3>Project 1: My Unique Shop</h3>
+<p>
+<strong>Description:</strong> Performed manual testing for an e-commerce website called "My Unique Shop." Focused on ensuring a seamless user experience by identifying and reporting bugs in the shopping cart, payment gateway, and product listing pages.
+</p>
+<p>
+<strong>Tools Used:</strong> TestRail, Excel.
+</p>
+<p>
+<strong>Key Achievements:</strong> Reduced critical bugs and improved overall user satisfaction.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Project 2: Fiabble Placement</h3>
+<p>
+<strong>Description:</strong> Conducted manual testing for a job portal website called "Fiabble Placement." Tested user registration, job search functionality, and employer dashboard to ensure smooth functionality.
+</p>
+<p>
+<strong>Tools Used:</strong> TestRail, Excel.
+</p>
+<p>
+<strong>Key Achievements:</strong> Identified and resolved 50+ bugs, improving the platform's reliability.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Project 3: Open Kart</h3>
+<p>
+<strong>Description:</strong> Performed manual testing for an online shopping platform called "Open Kart." Focused on testing the product search, checkout process, and user reviews functionality.
+</p>
+<p>
+<strong>Tools Used:</strong> TestRail, Excel.
+</p>
+<p>
+<strong>Key Achievements:</strong> Improved the checkout process by reducing errors by 40%.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Project 4: E-commerce website</h3>
+<p>
+<strong>Description:</strong> Built a robust automation framework utilizing the Page Object Model to test key e-commerce functionalities, including login, search, add-to-cart, and checkout. Automated regression test cases, integrated reports, and ensured code quality with version control and continuous integration setup.
+</p>
+<p>
+<strong>Tools Used:</strong> Selenium WebDriver, Java, Jira, TestNG, Maven, GitHub, Jenkins (CI), Extent Reports.
+</p>
+<p>
+<strong>Key Achievements:</strong> Reduced critical bugs and improved overall user satisfaction.
+</p>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
 <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-info">
-        <p>Feel free to reach out to me via email or connect with me on LinkedIn and GitHub:</p>
-        <ul>
-            <li>
-                <a href="surajpanigrahy199@gmail.com" target="_blank">
-                    <i class="fas fa-envelope"></i> surajpanigrahy199@gmail.com
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/suraj-panigrahy-393b26234/" target="_blank">
-                    <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/suraj-panigrahy-393b26234/
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/" target="_blank">
-                    <i class="fab fa-github"></i> https://github.com/
-                </a>
-            </li>
-        </ul>
-    </div>
-    <form id="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        
-        <button type="submit">Send</button>
-    </form>
+<h2>Contact Me</h2>
+<div class="contact-info">
+<p>Feel free to reach out to me via email or connect with me on LinkedIn and GitHub:</p>
+<ul>
+<li>
+<a href="mailto:surajpanigrahy199@gmail.com" target="_blank" rel="noopener noreferrer">
+<i class="fas fa-envelope"></i> surajpanigrahy199@gmail.com
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/in/suraj-panigrahy-393b26234/" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i> https://www.linkedin.com/in/suraj-panigrahy-393b26234/
+</a>
+</li>
+<li>
+<a href="https://github.com/surajpanigrahy" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i> https://github.com/surajpanigrahy
+</a>
+</li>
+</ul>
+</div>
+<form id="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required />
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required />
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+
+<button type="submit">Send</button>
+</form>
 </section>
-    <!-- Footer -->
-    <!-- Footer -->
+
+<!-- Footer -->
 <footer>
-    <p>&copy; 2025 Suraj Panigrahy. All rights reserved.</p>
+<p>&copy; 2025 Suraj Panigrahy. All rights reserved.</p>
 </footer>
 
-    <script src="testing.js"></script>
+<script src="testing.js"></script>
 </body>
 </html>
